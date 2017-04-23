@@ -34,7 +34,7 @@ end
 def notify(item)
   to = ARGV[0]
   subject = "Something new on dba"
-  content = "#{item.name}\n\n#{item.price}\n\n#{item.price}"
+  content = "#{item['name']}\n\n#{item['url']}\n\n#{item['price']}"
   `mail -s "#{subject}" #{to}<<EOM
     #{content}
   EOM`

@@ -4,7 +4,6 @@
 # ruby script.rb email-to-notify@example.com
 
 require 'wombat'
-require 'byebug'
 require 'digest'
 require 'json'
 

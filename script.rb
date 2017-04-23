@@ -39,6 +39,7 @@ def notify(item)
   `mail -s "#{subject}" #{to}<<EOM
     #{content}
   EOM`
+  sleep(2) # Do not flood email server (I use a free Amazon SES)
 end
 
 items = Item.new.crawl["items"]

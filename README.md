@@ -1,6 +1,6 @@
 # dbavis
 
-Simple script to check when there is a <b>Google Pixel<b> to buy on the “eBay of Denmark” and notify you via email. You can easily modify to look for other stuff.
+Simple script to check when there is a <b>Google Pixel</b> to buy on the “eBay of Denmark” and notify you via email. You can easily modify to look for other stuff.
 
 ## Install
 
